@@ -1,0 +1,79 @@
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #312a27f5;
+}
+header {
+    background: #5e4e4e;
+    color: #ffffff;
+    padding: 10px 0;
+    
+    margin: 10px;
+    text-align: center;
+}
+main {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    margin: 10px;
+    padding: 10px;
+    ;
+}
+nav{
+    background:#644343;
+    color: #000000;
+    padding: 5px 0;
+    margin: 0px;
+    text-align: left;
+}
+    section {
+        flex: 2 ;
+        padding: 20px;
+        margin:10px;
+        background: #f4f4f4;
+        border-radius: 5px;
+        box-shadow: #333;
+        color: #000000;
+    }
+    section.Festividades {
+        flex: 1;
+        background: #adeb66;
+        padding: 20px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+    section.Musica {
+        flex: 1;
+        background: #99f323;
+        padding: 20px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+    section.Gastronomia {
+        flex: 1;
+        background: #f3f323;
+        padding: 20px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+    aside {
+        flex: 1;
+        background: #ee8548;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: black;
+        
+    }
+    footer {
+        background: #755959;
+        color: #ffffff;
+        text-align: center;
+        padding: 1px ;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
