@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="style3.css"> 
+    <link rel="stylesheet" href="assets/css/style3.css"> 
 </head>
 <body>
 
@@ -31,7 +31,7 @@
             <label for="mensaje">Mensaje:</label>
             <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
         
-            <button type="button">Enviar</button> 
+            <button type="submit" onclick="enviarFormulario()">Enviar</button> 
             
         </form>
         
@@ -40,6 +40,19 @@
     <footer>
         <p>&copy; 2023 San Salvador de Jujuy</p>
     </footer>
+<script>
+function enviarFormulario() {
+   
+    
+  event.preventDefault(); 
+    var nombre = document.getElementById("nombre").value;
+  var email = document.getElementById("email").value;
+  console.log("Nombre: " + nombre);
+  console.log("Email: " + email);
+  alert("Nombre: " +nombre + " Correo electronico: " + email);
+}
+</script>
+
 
 </body>
 </html>
